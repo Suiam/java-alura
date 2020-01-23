@@ -1,0 +1,43 @@
+
+public class Fluxo {
+	
+	public static void main(String[] args) {
+        System.out.println("Ini do main");
+        try { // com o try catch a excecao é tratada.
+        	metodo1(); //ArithmeticException
+		} catch (ArithmeticException | NullPointerException ex) {
+			String msg = ex.getMessage(); // saber a mensagem original
+			System.out.println("Arithmetic Exception" + msg); // mensagem = by zero
+			ex.printStackTrace(); // rastro dos metodos
+		} 
+        
+        System.out.println("Fim do main");
+    }
+
+    private static void metodo1() {
+        System.out.println("Ini do metodo1");
+//        try { // com o try catch a excecao é tratada.
+//        	metodo2(); //ArithmeticException
+//		} catch (ArithmeticException ex) {
+//			System.out.println("Arithmetic Exception");
+//		} 
+        metodo2();
+        System.out.println("Fim do metodo1");
+    }
+
+    private static void metodo2() {
+        System.out.println("Ini do metodo2");
+        for(int i = 1; i <= 5; i++) {
+            System.out.println(i);
+            //int a = i / 0;
+            Conta c = null; //NullPointerException
+            c.deposita();
+//            try { // com o try catch a excecao é tratada.
+//            	int a = i / 0; //ArithmeticException
+//    		} catch (ArithmeticException ex) {
+//    			System.out.println("Arithmetic Exception");
+//    		} 
+        }
+        System.out.println("Fim do metodo2");
+    }
+}

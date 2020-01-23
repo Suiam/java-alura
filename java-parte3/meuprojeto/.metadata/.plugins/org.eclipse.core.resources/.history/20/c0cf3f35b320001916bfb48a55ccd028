@@ -1,0 +1,11 @@
+
+public class Administrador extends Funcionario implements Autenticavel { //administrador herda da classe funcionario e assina o contrato Autenticavel
+	
+	
+	@Override
+	public double getBonificacao() {
+		
+		return 50;
+	}
+
+}

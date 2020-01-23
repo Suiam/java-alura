@@ -1,0 +1,17 @@
+
+public class TesteReferencias {
+
+	public static void main(String[] args) {
+		Funcionario g1 = new Gerente();
+		// Funcionario g1 = new Gerente() => funciona
+		// Gerente g1 = new Funcionario() => nao funciona pois gerente é menos generico q funcionario
+		
+		g1.setNome("Marcos");
+		//g1.autentica => nao é possivel nesse caso pois a referencia funcionario nao possui o autentica. O autentica esta no gerente.
+		String nome = g1.getNome();
+		System.out.println(nome);
+		
+		
+	}
+
+}

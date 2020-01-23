@@ -1,0 +1,16 @@
+
+public class TesteReferencias {
+
+	public static void main(String[] args) {
+		Gerente g1 = new Gerente();
+		// Funcionario g1 = new Gerente() => funciona
+		// Gerente g1 = new Funcionario() => nao funciona pois gerente é menos generico q funcionario
+		
+		g1.setNome("Marcos");
+		String nome = g1.getNome();
+		System.out.println(nome);
+		
+		
+	}
+
+}

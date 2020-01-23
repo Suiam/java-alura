@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="FuncionarioTeste"/>
+<fullyQualifiedTypeName name="Gerente"/>
+<fullyQualifiedTypeName name="ControleBonificacao"/>
+<fullyQualifiedTypeName name="EditorVideo"/>
+<fullyQualifiedTypeName name="ContaPoupanca"/>
+<fullyQualifiedTypeName name="Conta"/>
+<fullyQualifiedTypeName name="Designer"/>
+<fullyQualifiedTypeName name="SistemaInterno"/>
+<fullyQualifiedTypeName name="Administrador"/>
+<fullyQualifiedTypeName name="FuncionarioAutenticavel"/>
+<fullyQualifiedTypeName name="Cliente"/>
+<fullyQualifiedTypeName name="Funcionario"/>
+<fullyQualifiedTypeName name="Autenticavel"/>
+<fullyQualifiedTypeName name="AutenticacaoUtil"/>
+<fullyQualifiedTypeName name="Tributavel"/>
+<fullyQualifiedTypeName name="ContaCorrente"/>
+<fullyQualifiedTypeName name="SeguroDeVida"/>
+<fullyQualifiedTypeName name="CalculadorDeImposto"/>
+<fullyQualifiedTypeName name="modelo.SeguroDeVida"/>
+<fullyQualifiedTypeName name="modelo.CalculadorDeImposto"/>
+<fullyQualifiedTypeName name="modelo.ContaPoupanca"/>
+<fullyQualifiedTypeName name="modelo.SaldoInsuficienteException"/>
+<fullyQualifiedTypeName name="modelo.ContaCorrente"/>
+<fullyQualifiedTypeName name="br.com.bytebank.banco.modelo.SaldoInsuficienteException"/>
+<fullyQualifiedTypeName name="br.com.bytebank.banco.especial.ContaEspecial"/>
+<fullyQualifiedTypeName name="br.com.bytebank.banco.modelo.ContaPoupanca"/>
+<fullyQualifiedTypeName name="br.com.bytebank.banco.modelo.GuardadorDeContas"/>
+<fullyQualifiedTypeName name="br.com.bytebank.banco.modelo.Conta"/>
+<fullyQualifiedTypeName name="br.com.bytebank.banco.modelo.ContaCorrente"/>
+<fullyQualifiedTypeName name="br.com.bytebank.banco.modelo.GuardadorDeReferencias"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="java.util.LinkedList"/>
+<fullyQualifiedTypeName name="java.util.Vector"/>
+<fullyQualifiedTypeName name="java.lang.Double"/>
+<fullyQualifiedTypeName name="java.awt.List"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.Comparator"/>
+<fullyQualifiedTypeName name="br.com.bytebank.banco.test.util.NumeroDaContaComparator"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="br.com.bytebank.banco.modelo.Cliente"/>
+<fullyQualifiedTypeName name="br.com.bytebank.banco.test.util.TitularDaContaComparator"/>
+<fullyQualifiedTypeName name="java.util.Collections"/>
+<fullyQualifiedTypeName name="br.com.bytebank.banco.test.util.NumeroDaContaComparator2"/>
+<fullyQualifiedTypeName name="java.util.function.Consumer"/>
+</qualifiedTypeNameHistroy>

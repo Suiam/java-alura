@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="FuncionarioTeste"/>
+<fullyQualifiedTypeName name="Gerente"/>
+<fullyQualifiedTypeName name="ControleBonificacao"/>
+<fullyQualifiedTypeName name="EditorVideo"/>
+<fullyQualifiedTypeName name="ContaPoupanca"/>
+<fullyQualifiedTypeName name="Conta"/>
+<fullyQualifiedTypeName name="Designer"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="SistemaInterno"/>
+<fullyQualifiedTypeName name="Administrador"/>
+<fullyQualifiedTypeName name="FuncionarioAutenticavel"/>
+<fullyQualifiedTypeName name="Cliente"/>
+<fullyQualifiedTypeName name="Funcionario"/>
+<fullyQualifiedTypeName name="Autenticavel"/>
+<fullyQualifiedTypeName name="AutenticacaoUtil"/>
+<fullyQualifiedTypeName name="Tributavel"/>
+<fullyQualifiedTypeName name="ContaCorrente"/>
+<fullyQualifiedTypeName name="SeguroDeVida"/>
+<fullyQualifiedTypeName name="CalculadorDeImposto"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,14 @@
+package br.com.bytebank.banco.test;
+
+public class TesteString {
+
+	public static void main(String[] args) {
+		String nome = "Alura"; //String é uma classe vinda do pacote java.lang
+		//nesse caso nao precisa usar new String para criar um objeto. 
+		// nada impende q seja feito isso mas nao é necessario e é considerado ma pratica
+		//String outro = new String("Alura");
+		
+		int a = 3;
+	}
+
+}

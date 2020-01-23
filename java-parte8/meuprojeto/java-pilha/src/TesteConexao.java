@@ -1,0 +1,29 @@
+
+public class TesteConexao {
+
+	public static void main(String[] args) {
+		
+		try(Conexao con = new Conexao()){
+			con.leDados(); // com a interface autocloseable a conexao sera fechada fazendo desta forma
+		} catch(IllegalStateException ex){
+			System.out.println("Deu error na conexao.");
+		}
+		
+		
+		
+		//--------------------------------------------
+		
+//		Conexao con = null;
+//		try { // um try exige pelo menos um catch ou um finally...um try sozinho nao é valido
+//			con = new Conexao();
+//			con.leDados();
+//		} catch (IllegalStateException ex) {
+//			System.out.println("Deu error na conexao.");
+//		} finally { // esse bloco é executado dando erro ou nao
+//			if(con != null) {
+//				con.fecha();
+//			}
+//		}
+	}
+
+}

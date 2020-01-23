@@ -1,0 +1,14 @@
+
+public class ContaCorrente extends Conta {
+	
+	public ContaCorrente(int agencia, int numero) { //chama o construtor especifico da class Conta
+		super(agencia, numero);
+	}
+	
+	@Override 
+	//anotacao na configuracao; configuracao para o compilador; esta sobrescrevendo o metodo saca da super class
+	public boolean saca(double valor) {
+		double valorASacar = valor + 0.2;
+		return super.saca(valorASacar);
+	}
+}

@@ -1,0 +1,18 @@
+
+public class TesteContas {
+
+	public static void main(String[] args) throws SaldoInsuficienteException{
+		
+		ContaCorrente contacorrente = new ContaCorrente(111, 111);
+		contacorrente.deposita(100.0);
+		
+		ContaPoupanca contapoupanca = new ContaPoupanca(222, 222);
+		contapoupanca.deposita(200.0);
+		
+		contacorrente.transfere(10.0, contapoupanca);
+		
+		System.out.println("Contacorrente: " + contacorrente.getSaldo());
+		System.out.println("Contapoupanca: " + contapoupanca.getSaldo());
+	}
+
+}

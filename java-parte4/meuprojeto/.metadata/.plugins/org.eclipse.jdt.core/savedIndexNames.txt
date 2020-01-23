@@ -1,0 +1,1 @@
+INDEX VERSION 1.131+/Users/suiamcosta/desenvolvimento/alura/java-parte4/meuprojeto/.metadata/.plugins/org.eclipse.jdt.core

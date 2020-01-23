@@ -1,0 +1,25 @@
+package br.com.bytebank.banco.test;
+
+import br.com.bytebank.banco.modelo.Cliente;
+import br.com.bytebank.banco.modelo.ContaCorrente;
+import br.com.bytebank.banco.modelo.ContaPoupanca;
+
+public class Teste {
+
+	public static void main(String[] args) {
+		
+		Object cc = new ContaCorrente(22,33);
+		Object cp = new ContaPoupanca(22,33);
+		Object cliente = new Cliente();
+		
+		System.out.println(cc); // imprime br.com.bytebank.banco.modelo.ContaCorrente@7852e922
+		System.out.println(cp);
+		
+		System.out.println(cc.toString()); // imprime br.com.bytebank.banco.modelo.ContaCorrente@7852e922
+		//pode tirar o toString()
+		//toString() vem da class Object
+		// como foi feito uma sobrescrita do metodo ToString na ContaCorrente o retorno sera oq fora determinado na sobrescrita
+		
+	}
+
+}

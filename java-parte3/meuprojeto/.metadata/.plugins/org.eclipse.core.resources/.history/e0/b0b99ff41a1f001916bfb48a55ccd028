@@ -1,0 +1,7 @@
+
+public class ContaCorrente extends Conta {
+	
+	public ContaCorrente(int agencia, int numero) { //chama o construtor especifico da class Conta
+		super(agencia, numero);
+	}
+}

@@ -1,0 +1,23 @@
+package br.com.bytebank.banco.test;
+
+import br.com.bytebank.banco.modelo.ContaCorrente;
+import br.com.bytebank.banco.modelo.ContaPoupanca;
+import br.com.bytebank.banco.modelo.SaldoInsuficienteException;
+
+public class TesteContas {
+
+	public static void main(String[] args) throws SaldoInsuficienteException{
+		// modelo.ContaCorrente => full qualified name FQN
+		ContaCorrente contacorrente = new ContaCorrente(111, 111);
+		contacorrente.deposita(100.0);
+		
+		ContaPoupanca contapoupanca = new ContaPoupanca(222, 222);
+		contapoupanca.deposita(200.0);
+		
+		contacorrente.transfere(10.0, contapoupanca);
+		
+		System.out.println("Contacorrente: " + contacorrente.getSaldo());
+		System.out.println("Contapoupanca: " + contapoupanca.getSaldo());
+	}
+
+}
